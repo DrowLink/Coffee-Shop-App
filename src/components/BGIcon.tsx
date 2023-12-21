@@ -10,6 +10,13 @@ interface BGIconProps {
   BGColor: string;
 }
 
+// interface BGIconProps {
+//   name: string;
+//   color: string;
+//   size: number;
+//   BGColor: string;
+// }
+
 const BGIcon: React.FC<BGIconProps> = ({name, color, size, BGColor}) => {
   return (
     <View style={[styles.IconBG, {backgroundColor: BGColor}]}>

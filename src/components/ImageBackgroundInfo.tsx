@@ -47,6 +47,8 @@ const ImageBackgroundInfo: React.FC<ImageBackgroundInfoProps> = ({
   roasted,
   BackHandler,
   ToggleFavourite,
+  UpFavorite,
+  Threeshold
 }) => {
   return (
     <View>
